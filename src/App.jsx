@@ -53,7 +53,7 @@ const App =()=>{
             {/* <ControlledFormHandlingTask1/> */}
             {/* <ControlledFormHandling/> */}
             {/* <ControlledformHandling1/> */}
-            {/* <Portfolio/> */}
+            <Portfolio/>
             {/* <AxiosConcept/> */}
             {/* <FormHandling/> */}
             <ToastContainer/>
@@ -64,7 +64,7 @@ const App =()=>{
             {/* <DefaultPropsConcept/> */}
             {/* <UseStateTask3/> */}
             {/* <StateWithProps/> */}
-            <HooksHome/>
+            {/* <HooksHome/> */}
             {/* <IconsImplementation/> */}
             {/* <PropsTaskHome/> */}
             {/* <PropsHome/> */}
