@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox{
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:#21A179;
+    gap:15px;
+
+}
+.card{
+    height:380px;
+    width:300px;
+    background-color:#C4AF9A;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding:10px;
+
+}
+
+img{
+    height:50%;
+    width:100%;
+    object-fit: cover;
+}
+.textarea{
+    height: 30%;
+    width:100%;
+    position: absolute;
+    
+    
+}
+.box{
+    height:150px;
+    width:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+
+}
+button{
+    height: 50px;
+    width:90px;
+}
+#btn1:hover{
+    background-color: crimson;
+}
+#btn2:hover{
+    background-color:blueviolet;
+}
+#btn3:hover{
+    background-color:darkgreen;
+}
+#btn4:hover{
+    background-color:darkgoldenrod;
+}
+#btn5:hover{
+    background-color:lawngreen;
+}

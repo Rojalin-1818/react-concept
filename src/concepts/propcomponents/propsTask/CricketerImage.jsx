@@ -1,0 +1,3 @@
+const CricketerImage=()=>{
+    retrun
+}
