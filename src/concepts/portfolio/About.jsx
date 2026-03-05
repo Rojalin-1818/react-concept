@@ -1,11 +1,13 @@
 import Navbar from "./Navbar"
-import profile from "../../assets/profile.png"  
+import myimage from "../../assets/picture1.png"
 
 
 const About=()=>{
     return(
-        <div className="Aboutcontainer">
-            <div className="aboutnav">
+        <section className="Aboutcontainer" id="about">
+            {/* <Navbar/> */}
+            <div className="displaycontainerabout">
+                <div className="aboutnav">
                 
                     <div className="aboutdiv"><h1>About</h1></div>
 
@@ -13,7 +15,7 @@ const About=()=>{
                 
                 
             <div className="imgbackground2">
-                <img src={profile} alt="" className="aboutimg"/>
+                <img src={myimage} alt="" className="aboutimg"/>
                 </div>
             
             </div>
@@ -24,42 +26,47 @@ const About=()=>{
 
         <div className="Righttext">
             
-            <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge frameworks and libraries,which allows me to implement interactive features. Additionally, I have experience working with content management systems (CMS) like WordPress.</p>
+            <p>Web developer skilled in HTML, CSS, JavaScript, Java, and React. Experienced in creating responsive, interactive, and high-performance web applications with modern frameworks and libraries. Adept at building dynamic features, optimizing performance, and delivering seamless user experiences across devices.</p>
 
             <div className="skills">
-                <div className="frontend">
-                <h3>Frontend</h3>
-                
-                    <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    </ul>
-            </div>
-            <div className="skill-line"></div>
-            <div className="backend">
-                <h3>Backend</h3>
-                <ul>
-                    <li>Java</li>
-                </ul>
-                
-            </div>
-            <div className="skill-line"></div>
-            <div className="database">
-                <h3>Database</h3>
-                <ul>
-                    <li>My Sql</li>
-                    <li>Oracle</li>
-                </ul>
-            </div>
+  <div className="frontend slide-down">
+    <h3>Frontend</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+    </ul>
+  </div>
+
+  <div className="skill-line"></div>
+
+  <div className="backend">
+    <h3>Backend</h3>
+    <ul>
+      <li>Java</li>
+    </ul>
+  </div>
+
+  <div className="skill-line"></div>
+
+  <div className="database slide-down">
+    <h3>Database</h3>
+    <ul>
+      <li>My Sql</li>
+      <li>Oracle</li>
+    </ul>
+  </div>
+</div>
+
             </div>
 
         </div>
-         </div>
+            </div>
+         </section>
            
 
-        </div>
+       
     )
 }
 export default About

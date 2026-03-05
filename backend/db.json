@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "rojalin",
+      "age": "21",
+      "email": "roja@gmail.com",
+      "password": "12345",
+      "dob": "14-feb-2005",
+      "city": "bbsr",
+      "gender": "female"
+    },
+    {
+      "id": "4ca5",
+      "username": "abhi",
+      "age": "67",
+      "email": "abhi@gmail.com",
+      "password": "12345",
+      "dob": "2026-03-04",
+      "city": "Bangalore",
+      "gender": "Male"
+    },
+    {
+      "id": "84af",
+      "username": "hello",
+      "age": "1",
+      "email": "hello@gmail.com",
+      "password": "1234",
+      "dob": "2026-03-18",
+      "city": "Hyderabad",
+      "gender": "Other"
+    },
+    {
+      "id": "131d",
+      "username": "",
+      "age": "",
+      "email": "",
+      "password": "",
+      "dob": "",
+      "city": "",
+      "gender": ""
+    },
+    {
+      "id": "8400",
+      "username": "",
+      "age": "",
+      "email": "",
+      "password": "",
+      "dob": "",
+      "city": "",
+      "gender": ""
+    },
+    {
+      "id": "a11d",
+      "username": "",
+      "age": "",
+      "email": "",
+      "password": "",
+      "dob": "",
+      "city": "",
+      "gender": ""
+    },
+    {
+      "id": "adad",
+      "username": "",
+      "age": "",
+      "email": "",
+      "password": "",
+      "dob": "",
+      "city": "",
+      "gender": ""
+    },
+    {
+      "id": "6c2e",
+      "username": "",
+      "age": "",
+      "email": "",
+      "password": "",
+      "dob": "",
+      "city": "",
+      "gender": ""
+    },
+    {
+      "id": "ebc6",
+      "username": "",
+      "age": "",
+      "email": "",
+      "password": "",
+      "dob": "",
+      "city": "",
+      "gender": ""
+    },
+    {
+      "id": "d8e0",
+      "username": "rojalin",
+      "age": "31",
+      "email": "rose@gmail.com",
+      "password": "12345",
+      "dob": "2026-03-11",
+      "city": "Hyderabad",
+      "gender": "Female"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

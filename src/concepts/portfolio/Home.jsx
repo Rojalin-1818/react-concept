@@ -7,12 +7,17 @@ import { SlMouse } from "react-icons/sl";
 import Navbar from "./Navbar";
 import TypedText from "./TypedText";
 import { GoArrowRight } from "react-icons/go";
-
+import idea from "../../assets/idea.webp"
+import projects from "../../assets/project1.png"
+// import team from "../../assets/team.png"
+import team from "../../assets/teams.png"
+import productivity from "../../assets/productivity.png"
+import myimage from "../../assets/picture1.png"
 
 const Home=(()=>{
     return(
-        <div className="homecontainer">
-            <Navbar/>
+        <div className="homecontainer" id="home">
+           
 
             <div className="text">
                 <h1 className="intro">Hi, I'm Rojalin</h1>
@@ -47,9 +52,21 @@ const Home=(()=>{
             </div>
            
                 <div>
+                    <div>
+                        <img src={productivity} alt="" className="icon4"/>
+                    </div>
+                    <div>
+                        <img src={team} alt="" className="icon1"/>
+                    </div>
+                     <div>
+                        <img src={projects} alt="" className="icon2"/>
+                    </div>
                     <div className="imgbackground"></div>
-                <img src={profile} alt=""/>
+                <img src={myimage} alt="" className="myimage"/>
                 </div>
+                <div>
+                        <img src={idea} alt="" className="icon3"/>
+                    </div>
             
             
         </div>

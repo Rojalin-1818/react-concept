@@ -27,7 +27,8 @@ import HOC from "./concepts/hoc/HOC.jsx";
 import ReactOptimization from "./concepts/optimization/ReactOptimization.jsx";
 import HooksHome from "./concepts/hooks/HooksHome.jsx";
 // import Tailwindconcept from "./concepts/tailwindcssconcept/Tailwindconcept";
-// import Portfolio from "./concepts/portfolio/Portfolio"
+import Portfolio from "./concepts/portfolio/Portfolio"
+import CrudeOpertionHome from "./concepts/crudoperation/CrudeOpertionHome.jsx";
 // import ControlledFormHandling from "./concepts/formhandling/controlledforms/ControlledFormHandling"
 // import ControlledformHandling1 from "./concepts/formhandling/controlledforms/ControlledformHandling1"
 // import ControlledFormHandlingTask1 from "./concepts/formhandling/controlledforms/ControlledFormHandlingTask1"
@@ -39,7 +40,7 @@ import HooksHome from "./concepts/hooks/HooksHome.jsx";
 const App =()=>{
     return  (
         <div >
-            
+            <CrudeOpertionHome/>
             {/* <ReactOptimization/> */}
             {/* <HOC/> */}
             {/* <ContextApiConcept/> */}
@@ -53,7 +54,7 @@ const App =()=>{
             {/* <ControlledFormHandlingTask1/> */}
             {/* <ControlledFormHandling/> */}
             {/* <ControlledformHandling1/> */}
-            <Portfolio/>
+            {/* <Portfolio/> */}
             {/* <AxiosConcept/> */}
             {/* <FormHandling/> */}
             <ToastContainer/>

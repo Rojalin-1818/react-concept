@@ -18,28 +18,28 @@ const Navbar = ({ direction = "row" }) => {
             className={`navdiv ${active === "Home" ? "active" : ""}`}
             onClick={() => setActive("Home")}
           >
-            <a href="#Home">Home</a>
+            <a href="#home">Home</a>
           </div>
 
           <div
             className={`navdiv ${active === "About" ? "active" : ""}`}
             onClick={() => setActive("About")}
           >
-            <a href="#About">About</a>
+           <a href="#about">About</a>
           </div>
 
           <div
             className={`navdiv ${active === "Project" ? "active" : ""}`}
             onClick={() => setActive("Project")}
           >
-            <a href="#Project">Project</a>
+            <a href="#project">Project</a>
           </div>
 
           <div
             className={`navdiv ${active === "Contact" ? "active" : ""}`}
             onClick={() => setActive("Contact")}
           >
-            <a href="#Contact">Contact</a>
+            <a href="#contact">Contact</a>
           </div>
 
         </div>
